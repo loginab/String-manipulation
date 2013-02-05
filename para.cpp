@@ -7,19 +7,18 @@ using namespace std;
 
 char* replace(char *p)
 {
-	int count=0,k=0;//char *q;
+	int count=0,k=0;
 
 	char *q=(char*)malloc(sizeof(char)*strlen(p));
 	char *r=(char *)malloc(sizeof(char)*15);
 
-	k=0;	
 	for(int i=strlen(p)-1;i>=0;i--)
 	{	q[k]=p[i];
 		k++;
 	}
 	
 	q[strlen(p)]='\0';
-k=0;	
+	k=0;	
 
 	for(int i=strlen(p)-1;i>=0;i--)
 	{
