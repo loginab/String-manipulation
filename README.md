@@ -10,7 +10,7 @@ para_one_two.cpp
 ------------
 
 Input:The arrangement of words has to be changed
-Output:The changed arrangement be of to words has 
+Output:changed arrangement be of to words has The
 
 replace_space.cpp
 -------------
